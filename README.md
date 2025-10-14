@@ -25,6 +25,9 @@ The project involves:
 ### [Google Colab Project Link](https://colab.research.google.com/drive/1jwf7bxxYvrg_ZnBXr8sQMam5sRezFCOw#scrollTo=la_Oz6oLlub6)
 
 ---
+## Training and Validation Accuracy
+![img.png](img.png)
+---
 
 ## 🛠 Tech Stack
 * Language: Python 3.8+
