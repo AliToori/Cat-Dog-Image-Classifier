@@ -26,7 +26,7 @@ The project involves:
 
 ---
 ## Training and Validation Accuracy
-![img.png](img.png)
+![Training and Validation Accuracy](Training_and_Validation_Accuracy.png)
 ---
 
 ## 🛠 Tech Stack
