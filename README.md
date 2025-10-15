@@ -10,7 +10,6 @@ This project implements a convolutional neural network (CNN) to classify images 
 📺 **YouTube**: [@AliToori](https://youtube.com/@AliToori)  
 💬 **Telegram**: [@AliToori](https://t.me/@AliToori)  
 📂 **GitHub**: [github.com/AliToori](https://github.com/AliToori)
----
 
 ### Project Overview
 The project involves:
@@ -21,7 +20,7 @@ The project involves:
 5. Predicting probabilities (cat or dog) for 50 test images and visualizing results with confidence percentages.
 6. Passing the challenge by achieving >=63% accuracy on the test set, verified by a provided test cell.
 
-
+---
 ---
 
 ### [Google Colab Project Link](https://colab.research.google.com/drive/1jwf7bxxYvrg_ZnBXr8sQMam5sRezFCOw#scrollTo=la_Oz6oLlub6)
