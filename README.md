@@ -1,4 +1,4 @@
-# Book Recommendation Engine using KNN
+# Cat and Dog Image ClassifierBook Recommendation Engine using KNN
 
 
 This project implements a book recommendation system using the K-Nearest Neighbors (KNN) algorithm, developed as part of the freeCodeCamp Machine Learning with Python certification. The goal is to create a recommendation engine using scikit-learn’s NearestNeighbors in Google Colab that recommends five similar books based on user ratings for a given book title, using the Book-Crossings dataset with 1.1 million ratings of 270,000 books by 90,000 users.
