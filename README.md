@@ -12,16 +12,13 @@ This project implements a book recommendation system using the K-Nearest Neighbo
 ---
 
 ### Project Overview
-Project Overview
 The project involves:
-
-Loading and preprocessing the Book-Crossings dataset, filtering out users with fewer than 200 ratings and books with fewer than 100 ratings to ensure statistical significance.
-Using NearestNeighbors from scikit-learn to build a model that measures the “closeness” of books based on user ratings.
-Creating a get_recommends function that takes a book title as input and returns a list containing the input title and a nested list of five recommended books with their distances from the input book.
-Ensuring the model meets the challenge requirements by passing the provided test case, which checks the recommendations for "The Queen of the Damned (Vampire Chronicles (Paperback))".
-Optionally visualizing the dataset to understand rating distributions (not implemented in the core solution but mentioned as an option).
-
-Example output for get_recommends("The Queen of the Damned (Vampire Chronicles (Paperback))"):
+1. Using `ImageDataGenerator` to load and preprocess images from the cats_and_dogs dataset, rescaling pixel values from 0-255 to 0-1.
+2. Applying data augmentation (e.g., rotation, flipping) to the training set to improve generalization.
+3. Building a CNN with Keras Sequential, featuring Conv2D, MaxPooling2D, and Dense layers, compiled with binary crossentropy loss and Adam optimizer.
+4. Training the model on 2000 training images and validating on 1000 images, aiming for high validation accuracy.
+5. Predicting probabilities (cat or dog) for 50 test images and visualizing results with confidence percentages.
+6. Passing the challenge by achieving >=63% accuracy on the test set, verified by a provided test cell.
 
 ---
 
