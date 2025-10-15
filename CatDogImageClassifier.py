@@ -52,14 +52,7 @@ def player(prev_play, opponent_history=[]):
         elif len(my_history) >= 10:
             our_most_frequent = most_frequent(my_history, 10)
             mrugesh_counter = counter_moves[our_most_frequent]
-            # Play counter to Mrugesh's counter
-            guess = counter_moves[mrugesh_counter]
-
-        # Abbey: Tries to counter our patterns, so we mix strategies
-        else:
-            # Play counter to our most frequent move to confuse Abbey
-            our_most_frequent = most_frequent(my_history)
-            guess = counter_moves[our_most_frequent]
+            # Play counter to Mrugesh'most_frequent]
 
     # Store our move
     my_history.append(guess)
