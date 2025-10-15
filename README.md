@@ -10,7 +10,6 @@ This project implements a convolutional neural network (CNN) to classify images 
 📺 **YouTube**: [@AliToori](https://youtube.com/@AliToori)  
 💬 **Telegram**: [@AliToori](https://t.me/@AliToori)  
 📂 **GitHub**: [github.com/AliToori](https://github.com/AliToori)
-
 ---
 
 ### Project Overview
