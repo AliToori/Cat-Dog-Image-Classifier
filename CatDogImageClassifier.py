@@ -23,7 +23,19 @@ def player(prev_play, opponent_history=[]):
             counts[move] += 1
         max_count = max(counts.values())
         most_common = [move for move, count in counts.items() if count == max_count]
-        return random.cho= False
+        return random.choice(most_common)
+
+    # Default move for the first game or if no pattern is detected
+    guess = random.choice(["R", "P", "S"])
+
+    # Identify opponent based on move patterns
+    if len(opponent_history) >= 5:
+        # Quincy: Check for repeating sequence R, P, P, S, R
+        quincy_sequence = ["R", "P", "P", "S", "R"]
+        is_quincy = True
+        for i in range(min(len(opponent_history), 5)):
+            if opponent_history[-i-1] != quincy_sequence[-(i % 5 + 1)]:
+                is_quincy = False
                 break
         if is_quincy:
             next_quincy = quincy_sequence[len(opponent_history) % 5]
