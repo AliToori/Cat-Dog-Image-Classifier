@@ -12,6 +12,7 @@ This project implements a book recommendation system using the K-Nearest Neighbo
 ---
 
 ### Project Overview
+Project Overview
 The project involves:
 1. Loading and preprocessing the Book-Crossings dataset, filtering out users with fewer than 200 ratings and books with fewer than 100 ratings to ensure statistical significance.
 2. Using NearestNeighbors from scikit-learn to build a model that measures the “closeness” of books based on user ratings.
@@ -20,17 +21,7 @@ The project involves:
 5. Optionally visualizing the dataset to understand rating distributions (not implemented in the core solution but mentioned as an option).
 
 Example output for get_recommends("The Queen of the Damned (Vampire Chronicles (Paperback))"):
-[
-  'The Queen of the Damned (Vampire Chronicles (Paperback))',
-  [
-    ['Catch 22', 0.793983519077301], 
-    ['The Witching Hour (Lives of the Mayfair Witches)', 0.7448656558990479], 
-    ['Interview with the Vampire', 0.7345068454742432],
-    ['The Tale of the Body Thief (Vampire Chronicles (Paperback))', 0.5376338362693787],
-    ['The Vampire Lestat (Vampire Chronicles, Book II)', 0.5178412199020386]
-  ]
-]
-````
+
 ---
 
 ### [Google Colab Project Link](https://colab.research.google.com/drive/1jwf7bxxYvrg_ZnBXr8sQMam5sRezFCOw#scrollTo=la_Oz6oLlub6)
