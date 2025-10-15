@@ -21,8 +21,7 @@ The project involves:
 
 Example output for get_recommends("The Queen of the Damned (Vampire Chronicles (Paperback))"):
 
-` python
-[
+` python[
   'The Queen of the Damned (Vampire Chronicles (Paperback))',
   [
     ['Catch 22', 0.793983519077301], 
