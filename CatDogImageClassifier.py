@@ -1,13 +1,6 @@
 import random
 
-def player(prev_play, opponent_history=[]):
-    # Initialize histories if empty
-    if not opponent_history:
-        opponent_history.clear()
-        player.my_history = []
-
-    # Append opponent's previous play to history
-    opponent_history.append(prev_play)
+def player(prev_p.append(prev_play)
     my_history = player.my_history
 
     # Define counters for each move
