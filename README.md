@@ -10,6 +10,7 @@ This project implements a convolutional neural network (CNN) to classify images 
 📺 **YouTube**: [@AliToori](https://youtube.com/@AliToori)  
 💬 **Telegram**: [@AliToori](https://t.me/@AliToori)  
 📂 **GitHub**: [github.com/AliToori](https://github.com/AliToori)
+
 ### Project Overview
 The project involves:
 1. Using `ImageDataGenerator` to load and preprocess images from the cats_and_dogs dataset, rescaling pixel values from 0-255 to 0-1.
