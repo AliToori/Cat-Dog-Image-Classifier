@@ -4,6 +4,13 @@ This project implements a convolutional neural network (CNN) to classify images 
 
 ---
 
+👨‍💻 **Author**: Ali Toori – Full-Stack Python Developer  
+📺 **YouTube**: [@AliToori](https://youtube.com/@AliToori)  
+💬 **Telegram**: [@AliToori](https://t.me/@AliToori)  
+📂 **GitHub**: [github.com/AliToori](https://github.com/AliToori)
+
+---
+
 ### Project Overview
 The project involves:
 1. Using `ImageDataGenerator` to load and preprocess images from the cats_and_dogs dataset, rescaling pixel values from 0-255 to 0-1.
@@ -12,13 +19,6 @@ The project involves:
 4. Training the model on 2000 training images and validating on 1000 images, aiming for high validation accuracy.
 5. Predicting probabilities (cat or dog) for 50 test images and visualizing results with confidence percentages.
 6. Passing the challenge by achieving >=63% accuracy on the test set, verified by a provided test cell.
-
----
-
-👨‍💻 **Author**: Ali Toori – Full-Stack Python Developer  
-📺 **YouTube**: [@AliToori](https://youtube.com/@AliToori)  
-💬 **Telegram**: [@AliToori](https://t.me/@AliToori)  
-📂 **GitHub**: [github.com/AliToori](https://github.com/AliToori)
 
 ---
 
