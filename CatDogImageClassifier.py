@@ -11,7 +11,13 @@ def player(prev_play, opponent_history=[]):
     my_history = player.my_history
 
     # Define counters for each move
-    counter_moves = {"R": "Pif len(history) >= n else history
+    counter_moves = {"R": "P", "P": "S", "S": "R"}
+
+    # Helper function to get most frequent move in a history slice
+    def most_frequent(history, n=10):
+        if not history:
+            return random.choice(["R", "P", "S"])
+        recent = history[-n:] if len(history) >= n else history
         counts = {"R": 0, "P": 0, "S": 0}
         for move in recent:
             counts[move] += 1
