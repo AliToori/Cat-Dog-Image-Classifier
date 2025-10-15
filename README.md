@@ -31,7 +31,7 @@ Example output for `get_recommends("The Queen of the Damned (Vampire Chronicles 
     ['The Tale of the Body Thief (Vampire Chronicles (Paperback))', 0.5376338362693787],
     ['The Vampire Lestat (Vampire Chronicles, Book II)', 0.5178412199020386]
   ]
-]`
+]
 ````
 ---
 
