@@ -20,7 +20,6 @@ The project involves:
 5. Optionally visualizing the dataset to understand rating distributions (not implemented in the core solution but mentioned as an option).
 
 Example output for get_recommends("The Queen of the Damned (Vampire Chronicles (Paperback))"):
-
 `[
   'The Queen of the Damned (Vampire Chronicles (Paperback))',
   [
