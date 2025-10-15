@@ -1,6 +1,6 @@
-# Cat and Dog Image Classifier
+# Book Recommendation Engine using KNN
 
-This project implements a convolutional neural network (CNN) to classify images of cats and dogs, developed as part of the freeCodeCamp Machine Learning with Python certification. The goal is to create a CNN using TensorFlow 2.0 and Keras in Google Colab that achieves at least 63% accuracy on a test set of 50 images (extra credit for 70%+). The model uses image augmentation to prevent overfitting and is tested on a dataset with labeled training/validation sets and an unlabeled test set.
+This project implements a book recommendation system using the K-Nearest Neighbors (KNN) algorithm, developed as part of the freeCodeCamp Machine Learning with Python certification. The goal is to create a recommendation engine using scikit-learn’s NearestNeighbors in Google Colab that recommends five similar books based on user ratings for a given book title, using the Book-Crossings dataset with 1.1 million ratings of 270,000 books by 90,000 users.
 
 ---
 
@@ -13,13 +13,26 @@ This project implements a convolutional neural network (CNN) to classify images 
 
 ### Project Overview
 The project involves:
-1. Using `ImageDataGenerator` to load and preprocess images from the cats_and_dogs dataset, rescaling pixel values from 0-255 to 0-1.
-2. Applying data augmentation (e.g., rotation, flipping) to the training set to improve generalization.
-3. Building a CNN with Keras Sequential, featuring Conv2D, MaxPooling2D, and Dense layers, compiled with binary crossentropy loss and Adam optimizer.
-4. Training the model on 2000 training images and validating on 1000 images, aiming for high validation accuracy.
-5. Predicting probabilities (cat or dog) for 50 test images and visualizing results with confidence percentages.
-6. Passing the challenge by achieving >=63% accuracy on the test set, verified by a provided test cell.
+1. Loading and preprocessing the Book-Crossings dataset, filtering out users with fewer than 200 ratings and books with fewer than 100 ratings to ensure statistical significance.
+2. Using NearestNeighbors from scikit-learn to build a model that measures the “closeness” of books based on user ratings.
+3. Creating a get_recommends function that takes a book title as input and returns a list containing the input title and a nested list of five recommended books with their distances from the input book.
+4. Ensuring the model meets the challenge requirements by passing the provided test case, which checks the recommendations for "The Queen of the Damned (Vampire Chronicles (Paperback))".
+5. Optionally visualizing the dataset to understand rating distributions (not implemented in the core solution but mentioned as an option).
 
+Example output for `get_recommends("The Queen of the Damned (Vampire Chronicles (Paperback))")`:
+
+``` python
+[
+  'The Queen of the Damned (Vampire Chronicles (Paperback))',
+  [
+    ['Catch 22', 0.793983519077301], 
+    ['The Witching Hour (Lives of the Mayfair Witches)', 0.7448656558990479], 
+    ['Interview with the Vampire', 0.7345068454742432],
+    ['The Tale of the Body Thief (Vampire Chronicles (Paperback))', 0.5376338362693787],
+    ['The Vampire Lestat (Vampire Chronicles, Book II)', 0.5178412199020386]
+  ]
+]
+````
 ---
 
 ### [Google Colab Project Link](https://colab.research.google.com/drive/1jwf7bxxYvrg_ZnBXr8sQMam5sRezFCOw#scrollTo=la_Oz6oLlub6)
