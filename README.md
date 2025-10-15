@@ -14,11 +14,12 @@ This project implements a book recommendation system using the K-Nearest Neighbo
 ### Project Overview
 Project Overview
 The project involves:
-1. Loading and preprocessing the Book-Crossings dataset, filtering out users with fewer than 200 ratings and books with fewer than 100 ratings to ensure statistical significance.
-2. Using NearestNeighbors from scikit-learn to build a model that measures the “closeness” of books based on user ratings.
-3. Creating a get_recommends function that takes a book title as input and returns a list containing the input title and a nested list of five recommended books with their distances from the input book.
-4. Ensuring the model meets the challenge requirements by passing the provided test case, which checks the recommendations for "The Queen of the Damned (Vampire Chronicles (Paperback))".
-5. Optionally visualizing the dataset to understand rating distributions (not implemented in the core solution but mentioned as an option).
+
+Loading and preprocessing the Book-Crossings dataset, filtering out users with fewer than 200 ratings and books with fewer than 100 ratings to ensure statistical significance.
+Using NearestNeighbors from scikit-learn to build a model that measures the “closeness” of books based on user ratings.
+Creating a get_recommends function that takes a book title as input and returns a list containing the input title and a nested list of five recommended books with their distances from the input book.
+Ensuring the model meets the challenge requirements by passing the provided test case, which checks the recommendations for "The Queen of the Damned (Vampire Chronicles (Paperback))".
+Optionally visualizing the dataset to understand rating distributions (not implemented in the core solution but mentioned as an option).
 
 Example output for get_recommends("The Queen of the Damned (Vampire Chronicles (Paperback))"):
 
