@@ -20,7 +20,7 @@ The project involves:
 5. Optionally visualizing the dataset to understand rating distributions (not implemented in the core solution but mentioned as an option).
 
 Example output for get_recommends("The Queen of the Damned (Vampire Chronicles (Paperback))"):
-`[
+[
   'The Queen of the Damned (Vampire Chronicles (Paperback))',
   [
     ['Catch 22', 0.793983519077301], 
@@ -29,7 +29,7 @@ Example output for get_recommends("The Queen of the Damned (Vampire Chronicles (
     ['The Tale of the Body Thief (Vampire Chronicles (Paperback))', 0.5376338362693787],
     ['The Vampire Lestat (Vampire Chronicles, Book II)', 0.5178412199020386]
   ]
-]`
+]
 ````
 ---
 
