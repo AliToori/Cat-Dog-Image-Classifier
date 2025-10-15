@@ -30,6 +30,7 @@ Example output for get_recommends("The Queen of the Damned (Vampire Chronicles (
     ['The Vampire Lestat (Vampire Chronicles, Book II)', 0.5178412199020386]
   ]
 ]
+````
 ---
 
 ### [Google Colab Project Link](https://colab.research.google.com/drive/1jwf7bxxYvrg_ZnBXr8sQMam5sRezFCOw#scrollTo=la_Oz6oLlub6)
