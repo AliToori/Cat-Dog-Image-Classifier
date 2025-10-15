@@ -12,6 +12,7 @@ This project implements a book recommendation system using the K-Nearest Neighbo
 ---
 
 ### Project Overview
+Project Overview
 The project involves:
 1. Loading and preprocessing the Book-Crossings dataset, filtering out users with fewer than 200 ratings and books with fewer than 100 ratings to ensure statistical significance.
 2. Using NearestNeighbors from scikit-learn to build a model that measures the “closeness” of books based on user ratings.
