@@ -5,6 +5,7 @@ This project implements a convolutional neural network (CNN) to classify images 
 ---
 
 
+
 👨‍💻 **Author**: Ali Toori – Full-Stack Python Developer  
 📺 **YouTube**: [@AliToori](https://youtube.com/@AliToori)  
 💬 **Telegram**: [@AliToori](https://t.me/@AliToori)  
