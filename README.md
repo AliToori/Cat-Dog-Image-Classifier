@@ -1,9 +1,8 @@
-# Cat and Dog Image Classifier
+# Cat and Dog Image ClassifierBook Recommendation Engine using KNN
 
-This project implements a convolutional neural network (CNN) to classify images of cats and dogs, developed as part of the freeCodeCamp Machine Learning with Python certification. The goal is to create a CNN using TensorFlow 2.0 and Keras in Google Colab that achieves at least 63% accuracy on a test set of 50 images (extra credit for 70%+). The model uses image augmentation to prevent overfitting and is tested on a dataset with labeled training/validation sets and an unlabeled test set.
 
+This project implements a book recommendation system using the K-Nearest Neighbors (KNN) algorithm, developed as part of the freeCodeCamp Machine Learning with Python certification. The goal is to create a recommendation engine using scikit-learn’s NearestNeighbors in Google Colab that recommends five similar books based on user ratings for a given book title, using the Book-Crossings dataset with 1.1 million ratings of 270,000 books by 90,000 users.
 ---
-
 
 👨‍💻 **Author**: Ali Toori – Full-Stack Python Developer  
 📺 **YouTube**: [@AliToori](https://youtube.com/@AliToori)  
@@ -20,7 +19,6 @@ The project involves:
 4. Training the model on 2000 training images and validating on 1000 images, aiming for high validation accuracy.
 5. Predicting probabilities (cat or dog) for 50 test images and visualizing results with confidence percentages.
 6. Passing the challenge by achieving >=63% accuracy on the test set, verified by a provided test cell.
-
 
 ---
 
